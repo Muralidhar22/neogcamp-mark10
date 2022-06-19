@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    max-width: 600px;
+    font-family: 'Roboto Mono', monospace;
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(14, 174, 87, 1) 0%, rgba(12, 116, 117, 1) 90%);
+    min-height: 100vh;
+    padding: 1rem;
+    position: relative;
+}
+
+.text-center {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid whitesmoke;
+}
+
+button,
+input {
+    font-family: inherit;
+}
+
+ul {
+    margin-left: 2rem;
+}
+
+.heading {
+    color: white;
+    text-align: center;
+}
+
+.container {
+    margin-bottom: 10rem;
+}
+
+label,
+input {
+    display: block;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    font-size: large;
+}
+
+input {
+    padding: .5rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+}
+
+#cash-given,
+label[for="cash-given"] {
+    display: none;
+}
+
+#check-button {
+    display: block;
+    margin: auto;
+    background: white;
+    padding: .5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(12, 116, 117)
+}
+
+/* Table styling */
+.change-table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+td,
+th {
+    border: 2px solid white;
+    padding: 0.4rem;
+    width: 0%;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-size: x-large;
+}
+
+.output-msg {
+    color: white;
+}
